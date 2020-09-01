@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #d6d6d6;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0px 0px 10px 0px rgba(135, 135, 135, 0.51);
+}
+
+.header__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    border-bottom: 4px solid #000000;
+}
+
+.section {
+    padding: 20px;
+}
