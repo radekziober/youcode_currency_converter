@@ -8,6 +8,7 @@
     let convertButton = document.querySelector(".js-convertButton");
     let resultElement = document.querySelector(".js-result");
 
+       
 
     formElement.addEventListener("submit", (event) => {
         event.preventDefault();
@@ -61,9 +62,8 @@
 
         }
 
-
+    
         resultElement.innerHTML = `<p>${amount.toFixed(2)} ${fromCurrency} = ${result.toFixed(2)} ${toCurrency}</p>`;
-
 
 
     });
